@@ -1,0 +1,4 @@
+Number of Features,Features,Accuracy,F1 Score
+3,"Major_Axis_Length, Perimeter, Area",0.9146981627296588,0.8979591836734694
+5,"Major_Axis_Length, Perimeter, Area, Convex_Area, Eccentricity",0.9120734908136483,0.8951486697965572
+7,"Major_Axis_Length, Perimeter, Area, Convex_Area, Eccentricity, Minor_Axis_Length, Extent",0.910761154855643,0.8934169278996865

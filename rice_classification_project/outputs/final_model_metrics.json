@@ -1,0 +1,46 @@
+{
+  "selected_features": [
+    "Major_Axis_Length",
+    "Perimeter",
+    "Area"
+  ],
+  "best_parameters": {
+    "classifier__C": 10,
+    "classifier__gamma": 0.01
+  },
+  "cross_validation_f1_weighted": 0.9326824283118917,
+  "test_accuracy": 0.9120734908136483,
+  "test_precision_cammeo": 0.9137380191693291,
+  "test_recall_cammeo": 0.8773006134969326,
+  "test_f1_cammeo": 0.8951486697965572,
+  "test_roc_auc": 0.973943969156301,
+  "test_errors": 67,
+  "test_samples": 762,
+  "classification_report": {
+    "Cammeo": {
+      "precision": 0.9137380191693291,
+      "recall": 0.8773006134969326,
+      "f1-score": 0.8951486697965572,
+      "support": 326.0
+    },
+    "Osmancik": {
+      "precision": 0.910913140311804,
+      "recall": 0.9380733944954128,
+      "f1-score": 0.9242937853107345,
+      "support": 436.0
+    },
+    "accuracy": 0.9120734908136483,
+    "macro avg": {
+      "precision": 0.9123255797405665,
+      "recall": 0.9076870039961726,
+      "f1-score": 0.9097212275536458,
+      "support": 762.0
+    },
+    "weighted avg": {
+      "precision": 0.9121216842849709,
+      "recall": 0.9120734908136483,
+      "f1-score": 0.9118248776235668,
+      "support": 762.0
+    }
+  }
+}

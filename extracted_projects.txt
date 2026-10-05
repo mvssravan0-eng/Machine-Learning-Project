@@ -1,0 +1,198 @@
+ Machine Learning Projects
+ML Tasks, Detailed Project Descriptions, Dataset Links and Expected Outcomes
+Team 
+No.
+Project Title
+ML Tasks
+Detailed Project Description
+Dataset & Link
+Expected Outcomes
+1
+Explainable Student Dropout Risk Prediction Using Machine Learning
+Classification, feature selection, explainable ML, imbalanced learning
+Develop a model to classify students into dropout, enrolled, and graduate categories. Perform preprocessing, class-imbalance handling, feature selection and compare multiple ML classifiers. Add SHAP/LIME-based explanations to identify factors influencing individual predictions.
+Predict Students' Dropout and Academic Success
+Open Dataset
+https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success
+High-performing dropout prediction model; important risk factors; individual prediction explanations; confusion matrix, F1, ROC-AUC and balanced accuracy; early-warning framework.
+2
+Early Industrial Machine Failure Prediction Using Cost-Sensitive Machine Learning
+Binary classification, regression, cost-sensitive learning, feature engineering
+Use machine operating parameters such as temperature, torque, rotational speed and tool-wear to predict whether a failure is likely. Assign a higher cost to missed failures and compare conventional and cost-sensitive models.
+AI4I 2020 Predictive Maintenance Dataset
+Open Dataset
+https://archive.ics.uci.edu/dataset/601/ai4i
+Machine-failure prediction model; early-warning probability score; reduced false negatives; comparison of conventional vs cost-sensitive ML; important machine parameters.
+3
+Adaptive Air Quality Prediction Using Machine Learning
+Regression, time-series feature engineering, ensemble learning, adaptive learning
+Predict pollutant concentration from gas-sensor measurements and environmental variables. Generate lag, rolling-average and trend features. Compare regression and ensemble approaches and evaluate performance under changing conditions.
+Air Quality
+Open Dataset
+https://archive.ics.uci.edu/dataset/360/air+quality
+Pollution prediction model; short-term forecasting; important pollutant/sensor factors; MAE, RMSE and R² comparison; adaptive prediction strategy.
+4
+Personalized Obesity Risk Prediction Using Explainable Machine Learning
+Multiclass classification, feature selection, explainable ML
+Predict obesity categories from eating habits, physical condition and lifestyle-related attributes. Compare classifiers and identify features responsible for individual predictions.
+Estimation of Obesity Levels Based On Eating Habits and Physical Condition
+Open Dataset
+https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition
+Obesity-level prediction model; personalized risk factors; feature-importance ranking; explainable individual predictions; comparative ML performance.
+5
+Fairness-Aware Credit Default Prediction Using Machine Learning
+Binary classification, fairness analysis, probability calibration
+Predict whether a customer is likely to default on credit-card payments. Compare standard models and analyze whether prediction errors differ between demographic groups. Investigate threshold adjustment and probability calibration.
+Default of Credit Card Clients
+Open Dataset
+https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients
+Credit-default prediction model; calibrated probabilities; fairness/error comparison; accuracy, precision, recall, F1 and ROC-AUC; fairness-aware strategy.
+6
+Early Corporate Bankruptcy Detection Using Imbalanced Machine Learning
+Imbalanced classification, SMOTE, ensemble learning, cost-sensitive learning
+Build an early-warning system for financially distressed companies. Compare class weighting, SMOTE/ADASYN and ensemble approaches, optimizing for recall of bankruptcy cases rather than raw accuracy.
+Polish Companies Bankruptcy
+Open Dataset
+https://archive.ics.uci.edu/dataset/365/polish+companies+bankruptcy
+Bankruptcy-risk classifier; improved minority-class recall; imbalance-method comparison; feature importance; early financial-risk warning.
+7
+Electricity Consumption Anomaly Detection Using Unsupervised Machine Learning
+Clustering, anomaly detection, dimensionality reduction
+Analyze electricity-consumption patterns without manually labelled anomalies. Create consumption profiles and use Isolation Forest, Local Outlier Factor, clustering or related unsupervised methods to identify unusual behavior.
+ElectricityLoadDiagrams20112014
+Open Dataset
+https://archive.ics.uci.edu/dataset/321/electricityloaddiagrams20112014
+Normal consumption profiles; automatically detected anomalies; abnormal-period visualization; anomaly-method comparison; anomaly scoring mechanism.
+8
+Intelligent Customer Segmentation Using RFM and Machine Learning Clustering
+Clustering, feature engineering, dimensionality reduction
+Calculate Recency, Frequency and Monetary (RFM) features from transaction data. Apply K-Means, hierarchical clustering and DBSCAN to discover customer groups and identify high-value, inactive and potential customers.
+Online Retail
+Open Dataset
+https://archive.ics.uci.edu/dataset/352/online+retail
+Customer segments; RFM profiles; optimal cluster analysis; silhouette-score comparison; actionable customer profiles.
+9
+Indoor Position Prediction Using Machine Learning from BLE Signal Fingerprints
+Multiclass classification, feature engineering, noisy-data handling
+Predict indoor location from Bluetooth signal-strength fingerprints. Investigate noise, missing signals and feature selection. Compare KNN, Random Forest, SVM and ensemble models.
+BLE RSSI Dataset for Indoor Localization and Navigation
+Open Dataset
+https://archive.ics.uci.edu/dataset/497/ble+rssi+dataset+for+indoor+localization+and+navigation
+Indoor location prediction; robustness to noise; location-wise accuracy; signal-feature importance; average localization error.
+10
+Human Activity Recognition Using Sensor-Based Machine Learning
+Multiclass classification, feature selection, sensor fusion
+Classify human activities using smartphone sensor features. Compare feature subsets and investigate whether feature selection can maintain performance while reducing computational complexity.
+WISDM Smartphone and Smartwatch Activity and Biometrics Dataset
+Open Dataset
+https://archive.ics.uci.edu/dataset/507/wisdm+smartphone+and+smartwatch+activity+and+biometrics+dataset
+Activity recognition model; reduced feature set; accuracy vs computational-cost comparison; confusion analysis; lightweight ML model.
+11
+Automated Feature Selection for High-Dimensional Machine Learning
+Feature selection, dimensionality reduction, classification
+Use the Madelon benchmark to identify informative features from a high-dimensional dataset containing irrelevant and redundant variables. Compare filter, wrapper and embedded feature-selection strategies.
+Madelon
+Open Dataset
+https://archive.ics.uci.edu/dataset/171/madelon
+Reduced feature subset; informative-feature identification; comparable/improved classification; reduced training time; feature-selection methodology.
+12
+Dynamic Energy Demand Forecasting Using Ensemble Machine Learning
+Regression, time-series forecasting, ensemble learning
+Predict future electricity/energy demand using historical consumption and time-related features. Generate lag and rolling-window features and compare Random Forest, Gradient Boosting, XGBoost and stacking.
+ElectricityLoadDiagrams20112014
+Open Dataset
+https://archive.ics.uci.edu/dataset/321/electricityloaddiagrams20112014
+Short-term energy forecast; demand trends; ensemble prediction model; MAE/RMSE/MAPE comparison; peak-demand prediction.
+13
+Suspicious Company Detection Using Machine Learning-Based Anomaly Detection
+Anomaly detection, classification, clustering
+Develop an ML system to identify potentially abnormal financial records. Compare supervised classification with unsupervised anomaly detection and investigate combining anomaly scores with classification.
+Audit Data
+Open Dataset
+https://archive.ics.uci.edu/dataset/475/audit+data
+Suspicious-record identification; anomaly score; supervised vs unsupervised comparison; precision-recall analysis; high-risk ranking.
+14
+Early Student Performance Prediction Using Machine Learning
+Classification, regression, feature engineering, explainability
+Predict student academic performance using demographic, academic and behavioral attributes. Develop classification and regression versions, such as at-risk/not-at-risk and predicted final grade.
+Student Performance
+Open Dataset
+https://archive.ics.uci.edu/dataset/320/student+performance
+Early performance prediction; at-risk identification; important performance factors; grade prediction; intervention-oriented ML insights.
+15
+Rice Variety Classification Using Lightweight Machine Learning
+Multiclass classification, feature selection, model compression
+Classify rice varieties using physical/morphological features. Compare classifiers and reduce the number of features while preserving performance, targeting resource-constrained environments.
+Rice (Cammeo and Osmancik)
+Open Dataset
+https://archive.ics.uci.edu/dataset/545/rice+cammeo+and+osmancik
+Rice-variety classifier; reduced-feature model; accuracy-performance trade-off; feature importance; lightweight deployment-ready model.
+16
+Automated Dry Bean Variety 
+Classification Using Explainable Machine Learning
+Multiclass classification, 
+feature selection, explainability
+Classify seven dry-bean varieties using geometric and 
+shape features. Compare ML models and determine which morphological characteristics distinguish each variety.
+Dry Bean
+Open Dataset
+https://archive.ics.uci.edu/dataset/602/dry+bean
+Seven-class bean classifier; important 
+morphological features; class-wise performance; explainable classification; reduced-feature model.
+17
+Multi-Stage Air Pollution Prediction Using Feature Selection and Ensemble Learning
+Regression, feature selection, ensemble learning, model comparison
+First identify informative sensor variables, then build multiple regression models and combine predictions using ensemble/stacking. Compare the framework against individual baseline models.
+Air Quality
+Open Dataset
+https://archive.ics.uci.edu/dataset/360/air+quality
+Selected sensor subset; improved pollution prediction; ensemble/stacking model; error reduction; sensor contribution analysis.
+18
+Forest Cover Type Prediction Using Large-Scale Machine Learning
+Multiclass classification, feature selection, ensemble learning
+Predict forest-cover categories from cartographic and environmental features. Investigate feature importance, class-wise performance, ensemble models and the effect of training-data size.
+Covertype
+Open Dataset
+https://archive.ics.uci.edu/dataset/31/covertype
+Forest-cover classifier; feature-importance ranking; class-wise analysis; scalable ML pipeline; performance vs training-data-size study.
+Recommended Common ML Workflow
+1. Dataset Understanding
+2. Data Cleaning and Missing-Value Treatment
+3. Exploratory Data Analysis
+4. Feature Engineering
+5. Feature Selection / Dimensionality Reduction
+6. Baseline ML Model
+7. Proposed / Improved ML Model
+8. Hyperparameter Optimization
+9. Model Evaluation
+10. Explainability / Error Analysis
+11. Comparative Analysis
+12. Final ML Prediction System
+Suggested ML Algorithms
+ML Task
+Suggested Algorithms
+Classification
+Logistic Regression, Decision Tree, Random Forest, SVM, KNN, XGBoost
+Regression
+Linear Regression, Random Forest Regressor, Gradient Boosting, XGBoost
+Clustering
+K-Means, Hierarchical Clustering, DBSCAN
+Anomaly Detection
+Isolation Forest, Local Outlier Factor, One-Class SVM
+Feature Selection
+Mutual Information, RFE, LASSO, Random Forest Importance
+Imbalanced Learning
+Class Weighting, SMOTE, ADASYN, Cost-Sensitive Learning
+Ensemble Learning
+Voting, Bagging, Boosting, Stacking
+Explainable ML
+SHAP, LIME, Permutation Importance
+Model Optimization
+Grid Search, Random Search, Bayesian Optimization
+Minimum Expected Project Deliverables
+1. Baseline model establishing initial performance.
+2. Improved/proposed ML model demonstrating the project's innovation.
+3. Comparative evaluation using at least 3–5 ML algorithms.
+4. Feature analysis identifying influential variables.
+5. Error analysis explaining model failures and limitations.
+6. Final prediction interface/report demonstrating the model on unseen data.
